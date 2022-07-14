@@ -1,0 +1,16 @@
+.category{
+    margin-top: 3vh;
+    padding: 5px 30px 5px 30px;
+    background-color: white;
+    width: calc(100% - 60px);
+    border-radius: 15px;
+}
+.category-title{
+    font-family: 'Amstelvar Roman';
+    font-size: 1.6em;
+}
+.category p {
+    font-family: 'Subdex';
+    font-size: 1.4em;
+    margin-top: 0;
+}

@@ -1,7 +1,11 @@
+.blog{
+    padding-top: 12vh;
+}
 .article{
     padding-left: 0%;
     padding-right: 0%;
     padding-bottom: 20px;
+    width: 100%;
 }
 .description-post{
     position: relative;
@@ -47,14 +51,14 @@
     font-size: 1.4em;
     font-family: 'Subdex';
 }
-h1{
+.post h1{
     color: white;
     font-size: 2.5em;
     font-family: 'Amstelvar Roman';
 }
-h2{
+.post h3{
     color: rgb(255, 255, 255);
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-family: 'Amstelvar Roman';
     padding-bottom: 0px;
     padding-left: 6%;
@@ -78,3 +82,82 @@ h2{
 .post-views-count{
     margin-left: 5px;
 }
+/* дополниетльные посты под статьей*/
+.sample-posts{
+    padding-top: 40px;
+}
+.sample-posts ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.additional-article{
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #272626;
+    /*border-style: solid;
+    border-color: #272727;*/
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.article-additional-main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-post{
+    position: relative;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    margin-top: 35px;
+}
+.icon-post img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.title-post{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.title-post a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Amstelvar Roman';
+    font-size: 1em;
+    line-height: 1.2em;
+}
+.except-post{
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+.except-post a {
+    text-decoration: none;
+    color:#b3b1b1;
+    font-family: 'Subdex';
+    font-size: 1em;
+}
+.post-views{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: 'Subdex';
+    src: url('../fonts/19140.ttf'); 
+    } 
+@font-face {
+    font-family: 'Amstelvar Roman';
+    src: url('../fonts/21003.ttf'); 
+} 
+
+
+
+

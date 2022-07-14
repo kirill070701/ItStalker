@@ -1,0 +1,95 @@
+.block-image-logotype{
+    background-color: #272626;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.block-image-logotype .logo{
+    width: 170px;
+}
+.info-social-networks{
+    width: 20%;
+}
+.block-name p:nth-child(1){
+    font-family: 'Subdex';
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.block-name p:nth-child(2){
+    font-family: 'Subdex';
+    font-size: 1.5em;
+    color: rgb(161, 161, 161);
+    text-align: center;
+}
+.article:nth-child(2){
+    margin-top: 40px;
+}
+.article h1{
+    color: white;
+    font-family: 'Amstelvar Roman';
+    font-size: 2em;
+    text-align: center;
+}
+
+/*правый сайдбар*/
+
+.right-sidebar{
+    width: 25vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-sidebar .article{
+    box-sizing: border-box;
+    width: 75%;
+    margin-top: 15px;
+}
+.panel-socials-networks a{
+    text-decoration: none;
+    margin-top: 150px;
+}
+.panel-socials-networks .link{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon-social-network{
+    height: 30px;
+}
+.name-social-network{
+    margin-left: 25px;
+}
+.social-network-contact{
+    display: flex;
+    align-items: center;
+}
+.name-social-network p{
+    margin: 0;
+    color: rgb(148, 147, 147);
+    text-decoration: none;
+    font-family: 'Subdex';
+    font-size: 1em;
+}
+.name-social-network h2{
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Subdex';
+    font-size: 1.5em;
+}
+
+@font-face {
+    font-family: 'Subdex';
+    src: url('../fonts/19140.ttf'); 
+    } 
+@font-face {
+    font-family: 'Amstelvar Roman';
+    src: url('../fonts/21003.ttf'); 
+} 

@@ -12,7 +12,9 @@ body{
     padding: 0;
     background-color: #131212;
 }
-
+main{
+    padding-top: 12vh;
+}
 header{
     position:fixed;
     display: flex;
@@ -20,11 +22,17 @@ header{
     justify-content: space-around;
     background-color: #1312121e;
     height: 12vh;
+    max-height: 100px;
+    min-height: 70px;
     width: 100vw;
     backdrop-filter: blur(5px);
     z-index: 3;
 }
-
+.logotype a {
+    width: 55%;
+    min-width: 200px;
+    margin-right: 10%;
+} 
 .logotype, .search, .panel-menu{
     width: calc(100vw/3);
     z-index: 0;
@@ -41,13 +49,33 @@ header{
     justify-content: flex-start;
     align-items: center;
 }
-.panel-menu{
-    position: relative;
-}
-.searchField{
+.form-search{
     position: relative;
     width: 50%;
     height: 50%;
+}
+.panel-menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10%;
+    width: calc(100vw/3 - 60px);
+}
+.panel-menu .user-img{
+    position: relative;
+    width: auto;
+    height: 6vh;
+    min-height: 35px;
+    z-index: 4;
+}
+.panel-menu .user-img:hover{
+    box-shadow: 0 0 20px rgb(248, 0, 0);
+    cursor: pointer;
+}
+.searchField{
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
     font-size: 100%;
     color: white;
@@ -55,20 +83,25 @@ header{
     border: 0.5px;
     border-style: solid;
     border-color: #272727;
-    
 }
 .logo{
     position: relative;
-    height: 95%;
     margin: 0;
     padding: 0;
 }
+.logo figure{
+    margin:0;
+}
+header .wp-block-image img{
+    width: 100%;
+    max-width: none;
+}
 .background_img{
     position: relative;
-    padding-top: 12vh;
+    /*padding-top: 12vh;*/
     z-index: -1;
-    width: 100vw;
-    height: 40vh;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 .panel-menu .menu{
@@ -89,6 +122,8 @@ header{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-around;
+    /* width: 100%; */
 }
 .left-sidebar{
     position: relative;
@@ -131,8 +166,6 @@ header{
     width: calc(100% - 8%);
     border-radius: 15px;
     background-color: #272626;
-    /*border-style: solid;
-    border-color: #272727;*/
     margin-top: 30px;
     padding: 1%;
     padding-left: 4%;
@@ -156,7 +189,7 @@ header{
     justify-content: flex-start;
     align-items: center;
 }
-.avatar{
+.panel-menu .avatar, .avatar-autor .avatar{
     border-radius: 50%;
 }
 .name-autor{
@@ -195,7 +228,9 @@ header{
 }
 .icon-post img{
     position: relative;
-    width: 90%;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
 }
 /*количество просмотров*/
 .post-views{
@@ -229,31 +264,169 @@ header{
     position: relative;
     margin: 0;
     padding-top: 1.5vh;
+    padding-right: 4vw;
+    width: 25vw;
 }
 .top-news{
     position: relative;
     margin: 0;
     padding: 0;
 }
+.top-news ul{
+    padding-left: 0;
+}
+.top-news li{
+    list-style-type: none;
+    position: relative;
+    border-radius: 10px;
+    background-color: #272626;
+    margin-top: 15px;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
 .sidebar-right{
     position: relative;
-    margin-left: 4vw;
+    margin-left: 5vw;
 }
 .popular-news{
     font-family: 'Amstelvar Roman';
     font-size: 1.4em;
     color: white;
+    margin-left: 5%;
+}
+.title-top-post a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Amstelvar Roman';
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+.except-top-post{
+    padding-right: 10px;
+}
+.except-top-post a {
+    text-decoration: none;
+    color:#b3b1b1;
+    font-family: 'Subdex';
+    font-size: 1.2em;
+}
+.post-top-views-count strong{
+    margin-left: 5px;
+    font-size: 0.8em;
 }
 
+/*подвал*/
+footer{
+    margin-top: 50px;
+    background-color: #272626;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 0 2px rgb(247, 253, 253);
+    padding-bottom: 15px;
+    flex: 0 0 auto;
+}
+.background-footer{
+    display:flex;
+    justify-content: space-around;
+}
+.logotype-in-footer img{
+    max-width: none;
+    width: 250px;
+}
+.logotype-in-footer{
+    display: flex;
+    justify-content: center; 
+    align-items: baseline;
+}
+.logotype-in-footer a{
+    margin-top: 70px;
+}
+.logotype-in-footer, .center-footer, .social-network{
+    width: calc(100%/3);
+}
+.center-footer{
+    display:flex;
+    justify-content: space-around;
+}
+.two-column-footer h3, .one-column-footer h3{
+    font-family: 'Amstelvar Roman';
+    color: white;
+    font-size: 1.1em;
+}
+.two-column-footer li, .one-column-footer li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+.two-column-footer ul, .one-column-footer ul{
+    padding: 0;
+}
+.two-column-footer a, .one-column-footer a{
+    text-decoration: none;
+    color: #979696;
+    font-size: 1.05em;
+}
+.social-network{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-network p{
+    font-size: 1.1em;
+    color: white;
+}
+.img-social-networks img{
+    width: 35px;
+    margin-right: 10px;
+}
+.copywriting{
+    margin-top: 20px;
+}
+.copywriting p{
+    font-size: 1em;
+    color: rgb(143, 142, 142);
+    margin: 0 0 0 20px
+}
 
-
-
+/* мобильное меню*/
+.menu-mobil{
+    display: none;
+    padding-left: 20px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.one-radius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgb(190, 37, 152), rgb(230, 9, 38));
+}
+.two-radius{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    background-color: #131212;
+}
+.two-radius div{
+    width: 55%;
+    height: 12%;
+    background: linear-gradient(0deg, rgb(190, 37, 152), rgb(230, 9, 38));
+}
+.two-radius div:nth-child(2), .two-radius div:nth-child(3){
+    margin-top: 5px;
+}
 
 @font-face {
-font-family: 'Subdex';
-src: url('./assets/fonts/19140.ttf'); 
-} 
+    font-family: 'Subdex';
+    src: url('./assets/fonts/19140.ttf'); 
+    } 
 @font-face {
     font-family: 'Amstelvar Roman';
     src: url('./assets/fonts/21003.ttf'); 
-  } 
+} 

@@ -25,13 +25,13 @@ define( 'WPCACHEHOME', 'K:\OpenServer\domains\itproger\wp-content\plugins\wp-sup
 define( 'DB_NAME', 'itproger' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'wp' );
 
 /** Пароль к базе данных */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Имя сервера базы данных */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '192.168.0.102' );
 
 /** Кодировка базы данных для создания таблиц. */
 define( 'DB_CHARSET', 'utf8' );
