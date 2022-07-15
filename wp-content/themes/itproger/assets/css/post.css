@@ -56,7 +56,7 @@
     font-size: 2.5em;
     font-family: 'Amstelvar Roman';
 }
-.post h3{
+.post h3, .post h2{
     color: rgb(255, 255, 255);
     font-size: 1.2em;
     font-family: 'Amstelvar Roman';

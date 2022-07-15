@@ -17,6 +17,7 @@ jQuery(document).ready(()=>{
                 })
                 leftSidebar.removeClass('menuOn');
             }
+            
             if (width > 700 && $('main .search').length) {
                 $('header .panel-menu').before( $('.search'));
             }

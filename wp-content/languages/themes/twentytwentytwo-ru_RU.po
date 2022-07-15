@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-25 06:28:01+0000\n"
+"PO-Revision-Date: 2022-05-24 20:30:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/3.0.0-rc.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: ru\n"
 "Project-Id-Version: Themes - Twenty Twenty-Two\n"
 
@@ -21,705 +21,614 @@ msgstr "Twenty Twenty-Two, построена на прочной основе �
 msgid "Twenty Twenty-Two"
 msgstr "Twenty Twenty-Two"
 
+#: styles/swiss.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "Фильтр по умолчанию"
+
+#: styles/swiss.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: styles/swiss.json
+msgctxt "Style variation name"
+msgid "Swiss"
+msgstr "Швейцарский"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Sans"
+msgstr "IBM Plex Sans"
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr "Розовый"
+
+#: styles/blue.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "Синий"
+
 #: inc/patterns/hidden-404.php:14
-#, gp-priority: normal
 msgid "Search"
 msgstr "Поиск"
 
 #: inc/patterns/hidden-404.php:14
-#, gp-priority: normal
 msgctxt "label"
 msgid "Search"
 msgstr "Поиск"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Template part name"
 msgid "Footer"
 msgstr "Подвал"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Template part name"
 msgid "Header (Dark, small)"
 msgstr "Заголовок (тёмный, маленький)"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Template part name"
 msgid "Header (Dark, large)"
 msgstr "Заголовок (тёмный, большой)"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Template part name"
 msgid "Header"
 msgstr "Заголовок"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Custom template name"
 msgid "Page (No Separators)"
 msgstr "Страница (без разделителей)"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Custom template name"
 msgid "Single Post (No Separators)"
 msgstr "Единичная запись (без разделителей)"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Custom template name"
 msgid "Page (Large Header)"
 msgstr "Страница (большой заголовок)"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Custom template name"
 msgid "Blank"
 msgstr "Пустой"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Duotone name"
 msgid "Primary and tertiary"
 msgstr "Основной и третичный"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Duotone name"
 msgid "Primary and secondary"
 msgstr "Основной и вторичный"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Duotone name"
 msgid "Primary and background"
 msgstr "Основной и фон"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Duotone name"
 msgid "Foreground and tertiary"
 msgstr "Передний план и третичный"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Duotone name"
 msgid "Foreground and secondary"
 msgstr "Передний план и вторичный"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Duotone name"
 msgid "Foreground and background"
 msgstr "Передний план и фон"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Diagonal background to tertiary"
 msgstr "Диагональный от фонового к третичному"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Diagonal tertiary to background"
 msgstr "Диагональный от третичного к фону"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Diagonal background to secondary"
 msgstr "Диагональный от фонового к вторичному"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Diagonal secondary to background"
 msgstr "Диагональный от вторичного к фону"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Diagonal primary to foreground"
 msgstr "Диагональный от основного к фону"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Vertical tertiary to background"
 msgstr "Вертикальный от третичного к фону"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Vertical secondary to background"
 msgstr "Вертикальный от вторичного к фону"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Gradient name"
 msgid "Vertical secondary to tertiary"
 msgstr "Вертикальный от вторичного к третичному"
 
-#: theme.json
-#, gp-priority: normal
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
 msgctxt "Color name"
 msgid "Tertiary"
 msgstr "Третичный"
 
-#: theme.json
-#, gp-priority: normal
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
 msgctxt "Color name"
 msgid "Secondary"
 msgstr "Вторичный"
 
-#: theme.json
-#, gp-priority: normal
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
 msgctxt "Color name"
 msgid "Primary"
 msgstr "Основной"
 
-#: theme.json
-#, gp-priority: normal
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
 msgctxt "Color name"
 msgid "Background"
 msgstr "Фон"
 
-#: theme.json
-#, gp-priority: normal
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
 msgctxt "Color name"
 msgid "Foreground"
 msgstr "Передний план"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Font family name"
 msgid "Source Serif Pro"
 msgstr "Source Serif Pro"
 
 #: theme.json
-#, gp-priority: normal
 msgctxt "Font family name"
 msgid "System Font"
 msgstr "Системный шрифт"
 
 #: inc/patterns/query-text-grid.php:6
-#, gp-priority: normal
 msgid "Text-based grid of posts"
 msgstr "Сетка записей основаная на тексте"
 
 #: inc/patterns/query-simple-blog.php:6
-#, gp-priority: normal
 msgid "Simple blog posts"
 msgstr "Простые записи блога"
 
 #: inc/patterns/query-large-titles.php:6
-#, gp-priority: normal
 msgid "Large post titles"
 msgstr "Большие названия записей"
 
 #: inc/patterns/query-irregular-grid.php:6
-#, gp-priority: normal
 msgid "Irregular grid of posts"
 msgstr "Нерегулярная сетка записей"
 
 #: inc/patterns/query-image-grid.php:6
-#, gp-priority: normal
 msgid "Grid of image posts"
 msgstr "Сетка изображений записи"
 
 #: inc/patterns/query-grid.php:6
-#, gp-priority: normal
 msgid "Grid of posts"
 msgstr "Сетка записей"
 
 #: inc/patterns/query-default.php:6
-#, gp-priority: normal
 msgid "Default posts"
 msgstr "Записи по умолчанию"
 
 #: inc/patterns/page-sidebar-poster.php:56
-#, gp-priority: normal
 msgid "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
 msgstr "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
 
 #: inc/patterns/page-sidebar-poster.php:52
-#, gp-priority: normal
 msgid "Location"
 msgstr "Местоположение"
 
 #: inc/patterns/page-sidebar-poster.php:44
-#, gp-priority: normal
 msgid "February, 12 2021"
 msgstr "12 февраля 2021"
 
 #: inc/patterns/page-sidebar-poster.php:40
-#, gp-priority: normal
 msgid "Date"
 msgstr "Дата"
 
 #: inc/patterns/page-sidebar-poster.php:14
-#, gp-priority: normal
 msgid "<em>Flutter</em>, a collection of bird-related ephemera"
 msgstr "<em>Трепет</em>, коллекция эфемеров, связанных с птицами"
 
 #: inc/patterns/page-sidebar-poster.php:6
-#, gp-priority: normal
 msgid "Poster with right sidebar"
 msgstr "Постер и область виджетов справа"
 
 #: inc/patterns/page-sidebar-grid-posts.php:6
-#, gp-priority: normal
 msgid "Grid of posts with left sidebar"
 msgstr "Сетка записей и область виджетов слева"
 
 #: inc/patterns/page-sidebar-blog-posts.php:6
-#, gp-priority: normal
 msgid "Blog posts with left sidebar"
 msgstr "Записи блога и область виджетов слева"
 
 #: inc/patterns/page-sidebar-blog-posts-right.php:80
-#, gp-priority: normal
 msgid "Tags"
 msgstr "Метки"
 
 #: inc/patterns/page-sidebar-blog-posts-right.php:6
-#, gp-priority: normal
 msgid "Blog posts with right sidebar"
 msgstr "Записи блога и область виджетов справа"
 
 #: inc/patterns/page-layout-two-columns.php:58
-#, gp-priority: normal
 msgid "POSTS"
 msgstr "ЗАПИСИ"
 
 #: inc/patterns/page-layout-two-columns.php:21
-#, gp-priority: normal
 msgid "WELCOME"
 msgstr "Добро Пожаловать"
 
 #: inc/patterns/page-layout-two-columns.php:10
-#, gp-priority: normal
 msgid "<em>Goldfinch </em><br><em>&amp; Sparrow</em>"
 msgstr "<em>Щегол </em><br><em>и воробей</em>"
 
 #: inc/patterns/page-layout-two-columns.php:6
-#, gp-priority: normal
 msgid "Page layout with two columns"
 msgstr "Макет страницы из двух столбцов"
 
 #: inc/patterns/page-layout-image-text-and-video.php:53
-#, gp-priority: normal
 msgid "Oh hello. My name’s Angelo, and you’ve found your way to my blog. I write about a range of topics, but lately I’ve been sharing my hopes for next year."
 msgstr "О, привет. Меня зовут Анджело, и вы попали в мой блог. Я пишу на самые разные темы, но в последнее время делюсь своими надеждами на следующий год."
 
 #: inc/patterns/page-layout-image-text-and-video.php:42
-#, gp-priority: normal
 msgid "An illustration of a bird in flight"
 msgstr "Изображение птицы в полёте"
 
 #: inc/patterns/page-layout-image-text-and-video.php:21
-#, gp-priority: normal
 msgid "Screening"
 msgstr "Экранизация"
 
 #: inc/patterns/page-layout-image-text-and-video.php:6
-#, gp-priority: normal
 msgid "Page layout with image, text and video"
 msgstr "Макет страницы с изображением, текстом и видео"
 
 #: inc/patterns/page-layout-image-and-text.php:27
 #: inc/patterns/page-layout-two-columns.php:36
-#, gp-priority: normal
 msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
 msgstr "О, привет. Меня зовут Анджело, я веду этот блог. Я родился в Портленде, но сейчас живу в Нью Йорке. Вы можете узнать меня по публикациям с именами <a href=\"#\">Орёл-ищейка</a> и <a href=\"#\">Плачущая горлица</a>. Я пишу ради заработка.<br><br>Я обычно использую этот блог для каталогизации списка птиц и других интересных вещей. Если вы найдете ошибки в моих списках, пожалуйста, оставьте их при себе.<br><br>Если это не ваша чашка чая, <a href=\"#\">то я определенно порекомендую этот чай</a>. Он мой любимый."
 
 #: inc/patterns/page-layout-image-and-text.php:15
-#, gp-priority: normal
 msgctxt "Short for to be determined"
 msgid "TBD"
 msgstr "Определится позже"
 
 #: inc/patterns/page-layout-image-and-text.php:10
-#, gp-priority: normal
 msgid "<em>Watching Birds </em><br><em>in the Garden</em>"
 msgstr "<em>Наблюдая за птицами </em><br><em>в саду</em>"
 
 #: inc/patterns/page-layout-image-and-text.php:6
-#, gp-priority: normal
 msgid "Page layout with image and text"
 msgstr "Макет страницы с изображением и текстом"
 
 #: inc/patterns/page-about-solid-color.php:22
-#, gp-priority: normal
 msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
 msgstr "О! Привет, меня зовут Эдвард и вы нашли путь на мой сайт. Я заядлый наблюдатель за птицами и я веду мое собственное шоу на радио по вторникам в 11 вечера EDT."
 
 #: inc/patterns/page-about-solid-color.php:14
-#, gp-priority: normal
 msgid "Edvard<br>Smith"
 msgstr "Эдвард<br>Смит"
 
 #: inc/patterns/page-about-solid-color.php:6
-#, gp-priority: normal
 msgid "About page on solid color background"
 msgstr "Страница \"о нас\" на сплошном цветном фоне"
 
 #: inc/patterns/page-about-simple-dark.php:22
-#, gp-priority: normal
 msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
 msgstr "О! Привет, меня зовут Иисус и вы нашли путь на мой сайт. Я заядлый наблюдатель за птицами и я веду мое собственное шоу на радио по вторникам в 11 вечера EDT."
 
 #: inc/patterns/page-about-simple-dark.php:18
-#, gp-priority: normal
 msgid "Jesús<br>Rodriguez"
 msgstr "Иисус<br>Родригес"
 
 #: inc/patterns/page-about-simple-dark.php:6
-#, gp-priority: normal
 msgid "Simple dark about page"
 msgstr "Простая тёмная страница \"о нас\""
 
 #: inc/patterns/page-about-media-right.php:20
-#, gp-priority: normal
 msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
 msgstr "О! Привет, меня зовут Эмери и вы нашли путь на мой сайт. Я заядлый наблюдатель за птицами и я веду мое собственное шоу на радио по вторникам в 11 вечера EDT."
 
 #: inc/patterns/page-about-media-right.php:16
-#, gp-priority: normal
 msgid "Emery<br>Driscoll"
 msgstr "Эмери<br>Дрисколл"
 
 #: inc/patterns/page-about-media-right.php:9
-#, gp-priority: normal
 msgid "An image of a bird flying"
 msgstr "Изображение летящей птицы"
 
 #: inc/patterns/page-about-media-right.php:6
-#, gp-priority: normal
 msgid "About page with media on the right"
 msgstr "Страница \"о нас\" с медиа справа"
 
 #: inc/patterns/page-about-media-left.php:21
-#, gp-priority: normal
 msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
 msgstr "О! Привет, меня зовут Дуг и вы нашли путь на мой сайт. Я заядлый наблюдатель за птицами и я веду мое собственное шоу на радио по вторникам в 11 вечера EDT."
 
 #: inc/patterns/page-about-media-left.php:17
-#, gp-priority: normal
 msgid "Stilton"
 msgstr "Стилтон"
 
 #: inc/patterns/page-about-media-left.php:17
-#, gp-priority: normal
 msgid "Doug"
 msgstr "Дуг"
 
 #: inc/patterns/page-about-media-left.php:9
 #: inc/patterns/page-sidebar-poster.php:26
-#, gp-priority: normal
 msgid "Image of a bird on a branch"
 msgstr "Изображение птицы на ветке"
 
 #: inc/patterns/page-about-media-left.php:6
-#, gp-priority: normal
 msgid "About page with media on the left"
 msgstr "Страница \"о нас\" с медиа слева"
 
 #: inc/patterns/page-about-links.php:21
-#, gp-priority: normal
 msgid "A podcast about birds"
 msgstr "Подкаст о птицах"
 
 #: inc/patterns/page-about-links.php:17
-#, gp-priority: normal
 msgid "Swoop"
 msgstr "Налёт"
 
 #: inc/patterns/page-about-links.php:6
-#, gp-priority: normal
 msgid "About page links"
 msgstr "Ссылки страницы \"о нас\""
 
 #: inc/patterns/page-about-links-dark.php:42
 #: inc/patterns/page-about-links.php:46
-#, gp-priority: normal
 msgid "About the hosts"
 msgstr "Об организаторах"
 
 #: inc/patterns/page-about-links-dark.php:38
 #: inc/patterns/page-about-links.php:42
-#, gp-priority: normal
 msgid "Support the show"
 msgstr "Поддержать это шоу"
 
 #: inc/patterns/page-about-links-dark.php:34
 #: inc/patterns/page-about-links.php:38
-#, gp-priority: normal
 msgid "Listen on Spotify"
 msgstr "Слушайте на Spotify"
 
 #: inc/patterns/page-about-links-dark.php:30
 #: inc/patterns/page-about-links.php:34
-#, gp-priority: normal
 msgid "Listen on iTunes Podcasts"
 msgstr "Послушайте подкасты на iTunes"
 
 #: inc/patterns/page-about-links-dark.php:26
 #: inc/patterns/page-about-links.php:30
-#, gp-priority: normal
 msgid "Watch our videos"
 msgstr "Посмотрите наши видео"
 
 #: inc/patterns/page-about-links-dark.php:17
-#, gp-priority: normal
 msgid "A trouble of hummingbirds"
 msgstr "Проблемы колибри"
 
 #: inc/patterns/page-about-links-dark.php:13
 #: inc/patterns/page-about-links.php:10
-#, gp-priority: normal
 msgid "Logo featuring a flying bird"
 msgstr "Логотип с летящей птицей"
 
 #: inc/patterns/page-about-links-dark.php:6
-#, gp-priority: normal
 msgid "About page links (dark)"
 msgstr "Ссылки для страницы \"о нас\" (тёмные)"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:6
-#, gp-priority: normal
 msgid "About page with large image and buttons"
 msgstr "Страница \"о нас\" с большим изображением и кнопками"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:59
-#, gp-priority: normal
 msgid "Join my mailing list"
 msgstr "Присоединяйтесь к моему списку рассылки"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:51
-#, gp-priority: normal
 msgid "Learn about my process"
 msgstr "Узнайте больше о моей работе"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:43
-#, gp-priority: normal
 msgid "Read about me"
 msgstr "Прочтите обо мне"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:33
-#, gp-priority: normal
 msgid "Take a class"
 msgstr "Пройдите курс обучения"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:25
-#, gp-priority: normal
 msgid "Support my studio"
 msgstr "Поддержите мою студию"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:17
-#, gp-priority: normal
 msgid "Purchase my work"
 msgstr "Купите мои работы"
 
 #: inc/patterns/hidden-bird.php:9 inc/patterns/hidden-heading-and-bird.php:10
-#, gp-priority: normal
 msgid "Heading and bird image"
 msgstr "Заголовок и изображение птицы"
 
 #: inc/patterns/hidden-404.php:12
-#, gp-priority: normal
 msgid "This page could not be found. Maybe try a search?"
 msgstr "Эта страница не найдена. Попробуйте поиск?"
 
 #: inc/patterns/hidden-404.php:9
-#, gp-priority: normal
 msgctxt "Error code for a webpage that is not found."
 msgid "404"
 msgstr "404"
 
 #: inc/patterns/hidden-404.php:6
-#, gp-priority: normal
 msgid "404 content"
 msgstr "Содержимое страницы 404"
 
 #: inc/patterns/header-with-tagline.php:6
-#, gp-priority: normal
 msgid "Header with tagline"
 msgstr "Заголовок со слоганом"
 
 #: inc/patterns/header-title-navigation-social.php:6
-#, gp-priority: normal
 msgid "Title, navigation, and social links header"
 msgstr "Название, навигация и заголовок с социальными ссылками"
 
 #: inc/patterns/header-title-and-button.php:6
-#, gp-priority: normal
 msgid "Title and button header"
 msgstr "Название и заголовок с кнопкой"
 
 #: inc/patterns/header-text-only-with-tagline-black-background.php:6
-#, gp-priority: normal
 msgid "Text-only header with tagline and black background"
 msgstr "Заголовок только с текстом и слоганом на чёрном фоне"
 
 #: inc/patterns/header-text-only-salmon-background.php:6
-#, gp-priority: normal
 msgid "Text-only header with salmon background"
 msgstr "Заголовок только с текстом на фоне лососевого цвета"
 
 #: inc/patterns/header-text-only-green-background.php:6
-#, gp-priority: normal
 msgid "Text-only header with green background"
 msgstr "Заголовок только с текстом на зеленом фоне"
 
 #: inc/patterns/header-stacked.php:6
-#, gp-priority: normal
 msgid "Logo and navigation header"
 msgstr "Логотип и заголовок навигации"
 
 #: inc/patterns/header-small-dark.php:6
-#, gp-priority: normal
 msgid "Small header with dark background"
 msgstr "Маленький заголовок с тёмным фоном"
 
 #: inc/patterns/header-logo-navigation-social-black-background.php:6
-#, gp-priority: normal
 msgid "Logo, navigation, and social links header with black background"
 msgstr "Логотип, навигация и заголовок с социальными ссылками и тёмным фоном"
 
 #: inc/patterns/header-logo-navigation-offset-tagline.php:6
-#, gp-priority: normal
 msgid "Logo, navigation, and offset tagline Header"
 msgstr "Логотип, навигация и смещенный заголовок со слоганом"
 
 #: inc/patterns/header-logo-navigation-gray-background.php:6
-#, gp-priority: normal
 msgid "Logo and navigation header with gray background"
 msgstr "Логотип и заголовок навигации с серым фоном"
 
 #: inc/patterns/header-large-dark.php:24
 #: inc/patterns/hidden-heading-and-bird.php:14
-#, gp-priority: normal
 msgid "<em>The Hatchery</em>: a blog about my adventures in bird watching"
 msgstr "<em>Инкубатор</em>: блог о моих приключениях при наблюдении за птицами"
 
 #: inc/patterns/header-large-dark.php:6
-#, gp-priority: normal
 msgid "Large header with dark background"
 msgstr "Большой заголовок с тёмным фоном"
 
 #: inc/patterns/header-image-background.php:11
-#, gp-priority: normal
 msgid "Illustration of a flying bird"
 msgstr "Иллюстрация летящей птицы"
 
 #: inc/patterns/header-image-background.php:6
-#, gp-priority: normal
 msgid "Header with image background"
 msgstr "Заголовок с изображением фона"
 
 #: inc/patterns/header-image-background-overlay.php:6
-#, gp-priority: normal
 msgid "Header with image background and overlay"
 msgstr "Заголовок с изображением фона и наложением"
 
 #: inc/patterns/header-default.php:6
-#, gp-priority: normal
 msgid "Default header"
 msgstr "Заголовок по умолчанию"
 
 #: inc/patterns/header-centered-title-navigation-social.php:6
-#, gp-priority: normal
 msgid "Centered header with navigation, social links, and salmon background"
 msgstr "Центрированный заголовок с навигацией, социальными ссылками и лососевым цветом фона"
 
 #: inc/patterns/header-centered-logo.php:6
-#, gp-priority: normal
 msgid "Header with centered logo"
 msgstr "Заголовок с центированным заголовком"
 
 #: inc/patterns/header-centered-logo-black-background.php:6
-#, gp-priority: normal
 msgid "Header with centered logo and black background"
 msgstr "Заголовок с центрированным заголовком и тёмным фоном"
 
 #: inc/patterns/general-wide-image-intro-buttons.php:31
-#, gp-priority: normal
 msgid "Learn More"
 msgstr "Узнайте больше"
 
 #: inc/patterns/general-wide-image-intro-buttons.php:16
-#, gp-priority: normal
 msgid "Welcome to<br>the Aviary"
 msgstr "Добро пожаловать в<br>Птичник"
 
 #: inc/patterns/general-wide-image-intro-buttons.php:6
-#, gp-priority: normal
 msgid "Wide image with introduction and buttons"
 msgstr "Широкое изображение с введением и кнопками"
 
 #: inc/patterns/general-video-trailer.php:16
 #: inc/patterns/general-wide-image-intro-buttons.php:22
-#, gp-priority: normal
 msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
 msgstr "Фильм об орнитологах-любителях, каталог разных птиц в сочетании с издаваемыми ими звуками. Каждая птица указана под своим научным названием, поэтому все будет более официальным."
 
 #: inc/patterns/general-video-trailer.php:12
 #: inc/patterns/page-layout-image-text-and-video.php:49
-#, gp-priority: normal
 msgid "Extended Trailer"
 msgstr "Расширенный трейлер"
 
 #: inc/patterns/general-video-trailer.php:6
-#, gp-priority: normal
 msgid "Video trailer"
 msgstr "Видео трейлер"
 
 #: inc/patterns/general-video-header-details.php:41
-#, gp-priority: normal
 msgid "Angelo Tso<br>Edward Stilton<br>Amy Jensen<br>Boston Bell<br>Shay Ford"
 msgstr "Ангело Тсо<br>Эдвард Стилтон<br>Эми Дженсен<br>Бостон Белл<br>Шай Форд"
 
 #: inc/patterns/general-video-header-details.php:35
-#, gp-priority: normal
 msgid "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
 msgstr "Иисус Родригес<br>Дуг Стилтог<br>Эмери Дрисколл<br>Меган Пэрри<br>Роуэн Прайс"
 
 #: inc/patterns/general-video-header-details.php:29
-#, gp-priority: normal
 msgid "Featuring"
 msgstr "В ролях"
 
 #: inc/patterns/general-video-header-details.php:11
 #: inc/patterns/page-layout-image-text-and-video.php:11
-#, gp-priority: normal
 msgid "<em>Warble</em>, a film about <br>hobbyist bird watchers."
 msgstr "<em>Трель</em>, фильм о <br>тех, чье хобби - орнитология."
 
 #: inc/patterns/general-video-header-details.php:6
-#, gp-priority: normal
 msgid "Video with header and details"
 msgstr "Видео с заголовком и подробностями"
 
 #: inc/patterns/general-two-images-text.php:42
 #: inc/patterns/general-wide-image-intro-buttons.php:35
 #: inc/patterns/page-layout-image-text-and-video.php:30
-#, gp-priority: normal
 msgid "Buy Tickets"
 msgstr "Купить билеты"
 
 #: inc/patterns/general-two-images-text.php:29
 #: inc/patterns/page-layout-image-text-and-video.php:25
-#, gp-priority: normal
 msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
 msgstr "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
 
 #: inc/patterns/general-two-images-text.php:25
-#, gp-priority: normal
 msgid "SCREENING"
 msgstr "ЭКРАНИЗАЦИЯ"
 
@@ -727,286 +636,231 @@ msgstr "ЭКРАНИЗАЦИЯ"
 #: inc/patterns/general-wide-image-intro-buttons.php:10
 #: inc/patterns/header-large-dark.php:29 inc/patterns/header-small-dark.php:25
 #: inc/patterns/hidden-bird.php:12 inc/patterns/hidden-heading-and-bird.php:19
-#, gp-priority: normal
 msgid "Illustration of a bird flying."
 msgstr "Иллюстрация летящей птицы."
 
 #: inc/patterns/general-two-images-text.php:11
-#, gp-priority: normal
 msgid "Illustration of a bird sitting on a branch."
 msgstr "Изображение птицы сидящей на ветке."
 
 #: inc/patterns/general-two-images-text.php:6
-#, gp-priority: normal
 msgid "Two images with text"
 msgstr "Два изображения с текстом"
 
 #: inc/patterns/general-subscribe.php:16
-#, gp-priority: normal
 msgid "Join our mailing list"
 msgstr "Подпишитесь на нашу рассылку"
 
 #: inc/patterns/general-subscribe.php:11
-#, gp-priority: normal
 msgid "Watch birds<br>from your inbox"
 msgstr "Ловите птичек<br>во входящих"
 
 #: inc/patterns/general-subscribe.php:6
-#, gp-priority: normal
 msgid "Subscribe callout"
 msgstr "Призыв подписаться"
 
 #: inc/patterns/general-pricing-table.php:84
-#, gp-priority: normal
 msgid "$150"
 msgstr "15000 ₽"
 
 #: inc/patterns/general-pricing-table.php:79
-#, gp-priority: normal
 msgid "Play a leading role for our community by joining at the Falcon level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
 msgstr "Займите лидирующую роль в нашем сообществе став соколом. Этот уровень обеспечит вам место для планирования наших будущих экспедиций наблюдений за птицами."
 
 #: inc/patterns/general-pricing-table.php:75
-#, gp-priority: normal
 msgid "Falcon"
 msgstr "Сокол"
 
 #: inc/patterns/general-pricing-table.php:71
-#, gp-priority: normal
 msgctxt "Third item in a numbered list."
 msgid "3"
 msgstr "3"
 
 #: inc/patterns/general-pricing-table.php:56
-#, gp-priority: normal
 msgid "$75"
 msgstr "7500 ₽"
 
 #: inc/patterns/general-pricing-table.php:51
-#, gp-priority: normal
 msgid "Join at the Sparrow level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
 msgstr "Вступите на уровне воробья и станьте членом нашей стаи! Вы получите эксклюзивную рассылку новостей и брошь в виде птицы, которую вы с гордостью станете носить в вылазках на природу."
 
 #: inc/patterns/general-pricing-table.php:47
-#, gp-priority: normal
 msgid "Sparrow"
 msgstr "Воробей"
 
 #: inc/patterns/general-pricing-table.php:43
-#, gp-priority: normal
 msgctxt "Second item in a numbered list."
 msgid "2"
 msgstr "2"
 
 #: inc/patterns/general-pricing-table.php:28
-#, gp-priority: normal
 msgid "$25"
 msgstr "2500 ₽"
 
 #: inc/patterns/general-pricing-table.php:23
-#, gp-priority: normal
 msgid "Help support our growing community by joining at the Pigeon level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
 msgstr "Поддержите наше растущее сообщество, вступив в него на уровне голубя. Ваша поддержка поможет оплачивать работу наших писателей и вы получите доступ к эксклюзивной рассылке новостей."
 
 #: inc/patterns/general-pricing-table.php:19
-#, gp-priority: normal
 msgid "Pigeon"
 msgstr "Голубь"
 
 #: inc/patterns/general-pricing-table.php:15
-#, gp-priority: normal
 msgctxt "First item in a numbered list."
 msgid "1"
 msgstr "1"
 
 #: inc/patterns/general-pricing-table.php:6
-#, gp-priority: normal
 msgid "Pricing table"
 msgstr "Таблица цен"
 
 #: inc/patterns/general-list-events.php:103
-#, gp-priority: normal
 msgid "Emery Driscoll"
 msgstr "Эмери Дрисколл"
 
 #: inc/patterns/general-list-events.php:97
-#, gp-priority: normal
 msgid "May 20th, 2022, 6 PM"
 msgstr "20 мая 2022 г., 18:00"
 
 #: inc/patterns/general-list-events.php:79
-#, gp-priority: normal
 msgid "Amy Jensen"
 msgstr "Эми Дженсен"
 
 #: inc/patterns/general-list-events.php:73
-#, gp-priority: normal
 msgid "May 18th, 2022, 7 PM"
 msgstr "18 мая 2022 г., 19:00"
 
 #: inc/patterns/general-list-events.php:61
 #: inc/patterns/general-list-events.php:109
-#, gp-priority: normal
 msgid "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
 msgstr "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
 
 #: inc/patterns/general-list-events.php:55
-#, gp-priority: normal
 msgid "Doug Stilton"
 msgstr "Дуг Стилтон"
 
 #: inc/patterns/general-list-events.php:49
-#, gp-priority: normal
 msgid "May 16th, 2022, 6 PM"
 msgstr "16 мая 2022 г., 18:00"
 
 #: inc/patterns/general-list-events.php:37
 #: inc/patterns/general-list-events.php:85
-#, gp-priority: normal
 msgid "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
 msgstr "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
 
 #: inc/patterns/general-list-events.php:31
-#, gp-priority: normal
 msgid "Jesús Rodriguez"
 msgstr "Иисус Родригес"
 
 #: inc/patterns/general-list-events.php:25
-#, gp-priority: normal
 msgid "May 14th, 2022, 6 PM"
 msgstr "14 мая 2022 г., 18:00"
 
 #: inc/patterns/general-list-events.php:11
-#, gp-priority: normal
 msgid "Speaker Series"
 msgstr "Ряд докладчиков"
 
 #: inc/patterns/general-list-events.php:6
-#, gp-priority: normal
 msgid "List of events"
 msgstr "Список событий"
 
 #: inc/patterns/general-layered-images-with-duotone.php:10
 #: inc/patterns/page-sidebar-blog-posts-right.php:58
-#, gp-priority: normal
 msgid "Illustration of a flying bird."
 msgstr "Иллюстрация летящей птицы."
 
 #: inc/patterns/general-layered-images-with-duotone.php:9
 #: inc/patterns/header-image-background-overlay.php:11
-#, gp-priority: normal
 msgid "Painting of ducks in the water."
 msgstr "Изображение уток в воде."
 
 #: inc/patterns/general-layered-images-with-duotone.php:6
-#, gp-priority: normal
 msgid "Layered images with duotone"
 msgstr "Многослойные изображения с двуцветным фильтром"
 
 #: inc/patterns/general-large-list-names.php:30
-#, gp-priority: normal
 msgid "Read more"
 msgstr "Читать далее"
 
 #: inc/patterns/general-large-list-names.php:21
-#, gp-priority: normal
 msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
 msgstr "Иисус Родригес, Дуг Стилтон, Эмери Дрисколл, Меган Пэрри, Роуэн Прайс, Анджело Тсо, Эдвард Стилтон, Эми Дженсен, Бостон Бэлл, Шайя Форд, Ли Каннингем, Эвелинн Рэй, Ланден Риз, Эвен Харт, Дженна Чан, Феникс Мюррей, Мэл Сандерс, Альдо Дэвидсон, Зейн Холл."
 
 #: inc/patterns/general-large-list-names.php:11
 #: inc/patterns/page-sidebar-poster.php:32
-#, gp-priority: normal
 msgid "An icon representing binoculars."
 msgstr "Значок в виде бинокля."
 
 #: inc/patterns/general-large-list-names.php:6
-#, gp-priority: normal
 msgid "Large list of names"
 msgstr "Длинный список имён"
 
 #: inc/patterns/general-image-with-caption.php:15
-#, gp-priority: normal
 msgid "A beautiful bird featuring a surprising set of color feathers."
 msgstr "Симпатичная птичка с изумительными цветными перьями."
 
 #: inc/patterns/general-image-with-caption.php:11
-#, gp-priority: normal
 msgid "Hummingbird"
 msgstr "Колибри"
 
 #: inc/patterns/general-image-with-caption.php:10
-#, gp-priority: normal
 msgid "Hummingbird illustration"
 msgstr "Иллюстрация колибри"
 
 #: inc/patterns/general-image-with-caption.php:6
-#, gp-priority: normal
 msgid "Image with caption"
 msgstr "Изображение с подписью"
 
 #: inc/patterns/general-featured-posts.php:6
-#, gp-priority: normal
 msgid "Featured posts"
 msgstr "Избранные записи"
 
 #: inc/patterns/general-divider-light.php:6
-#, gp-priority: normal
 msgid "Divider with image and color (light)"
 msgstr "Разделитель с изображением и цветом (светлый)"
 
 #: inc/patterns/general-divider-dark.php:6
-#, gp-priority: normal
 msgid "Divider with image and color (dark)"
 msgstr "Разделитель с изображением и цветом (тёмный)"
 
 #: inc/patterns/footer-title-tagline-social.php:6
-#, gp-priority: normal
 msgid "Footer with title, tagline, and social links on a dark background"
 msgstr "Подвал с заголовком, слоганом и ссылками социальных сетей на тёмном фоне"
 
 #: inc/patterns/footer-social-copyright.php:6
-#, gp-priority: normal
 msgid "Footer with social links and copyright"
 msgstr "Подвал с ссылками на социальные сети и авторскими правами"
 
 #: inc/patterns/footer-query-title-citation.php:6
-#, gp-priority: normal
 msgid "Footer with query, title, and citation"
 msgstr "Подвал с результатами запроса, заголовком и информацией WordPress"
 
 #: inc/patterns/footer-query-images-title-citation.php:6
-#, gp-priority: normal
 msgid "Footer with query, featured images, title, and citation"
 msgstr "Подвал с результатами запроса, изображениями записей, заголовком и информацией WordPress"
 
 #: inc/patterns/footer-navigation.php:6
-#, gp-priority: normal
 msgid "Footer with navigation and citation"
 msgstr "Подвал с навигацией и информацией WordPress"
 
 #: inc/patterns/footer-navigation-copyright.php:20
 #: inc/patterns/footer-social-copyright.php:24
-#, gp-priority: normal
 msgid "© Site Title"
 msgstr "© Заголовок сайта"
 
 #: inc/patterns/footer-navigation-copyright.php:6
-#, gp-priority: normal
 msgid "Footer with navigation and copyright"
 msgstr "Подвал с навигацией и авторскими правами"
 
 #: inc/patterns/footer-logo.php:6
-#, gp-priority: normal
 msgid "Footer with logo and citation"
 msgstr "Подвал с логотипом и информацией WordPress"
 
 #: inc/patterns/footer-default.php:6
-#, gp-priority: normal
 msgid "Default footer"
 msgstr "Подвал по умолчанию"
 
 #: inc/patterns/footer-dark.php:6
-#, gp-priority: normal
 msgid "Dark footer with title and citation"
 msgstr "Темный подвал с заголовком и информацией WordPress"
 
@@ -1015,7 +869,6 @@ msgstr "Темный подвал с заголовком и информаци�
 #: inc/patterns/footer-navigation.php:20
 #: inc/patterns/footer-query-images-title-citation.php:35
 #: inc/patterns/footer-query-title-citation.php:33
-#, gp-priority: normal
 msgid "https://wordpress.org"
 msgstr "https://ru.wordpress.org"
 
@@ -1025,63 +878,51 @@ msgstr "https://ru.wordpress.org"
 #: inc/patterns/footer-navigation.php:19
 #: inc/patterns/footer-query-images-title-citation.php:34
 #: inc/patterns/footer-query-title-citation.php:32
-#, gp-priority: normal
 msgid "Proudly powered by %s"
 msgstr "Работает на %s"
 
 #: inc/patterns/footer-blog.php:31
 #: inc/patterns/page-sidebar-blog-posts-right.php:74
-#, gp-priority: normal
 msgid "Categories"
 msgstr "Рубрики"
 
 #: inc/patterns/footer-blog.php:23 inc/patterns/general-featured-posts.php:10
-#, gp-priority: normal
 msgid "Latest posts"
 msgstr "Последние записи"
 
 #: inc/patterns/footer-blog.php:6
-#, gp-priority: normal
 msgid "Blog footer"
 msgstr "Подвал блога"
 
 #: inc/patterns/footer-about-title-logo.php:17 inc/patterns/footer-blog.php:17
-#, gp-priority: normal
 msgid "We are a rogue collective of bird watchers. We’ve been known to sneak through fences, climb perimeter walls, and generally trespass in order to observe the rarest of birds."
 msgstr "Мы - куча шалопаев наблюдающих за птицами. Мы известны тем, что перелезаем через заборы, прокрадываемся в охраняемые зоны и в целом способны проникнуть куда угодно для того, чтобы наблюдать за самыми редкими птицами."
 
 #: inc/patterns/footer-about-title-logo.php:13 inc/patterns/footer-blog.php:13
-#, gp-priority: normal
 msgid "About us"
 msgstr "О нас"
 
 #: inc/patterns/footer-about-title-logo.php:6
-#, gp-priority: normal
 msgid "Footer with text, title, and logo"
 msgstr "Подвал с текстом, заголовком и логотипом"
 
 #: inc/block-patterns.php:21
-#, gp-priority: normal
 msgid "Pages"
 msgstr "Страницы"
 
 #: inc/block-patterns.php:20
-#, gp-priority: normal
 msgid "Query"
 msgstr "Запрос"
 
 #: inc/block-patterns.php:19
-#, gp-priority: normal
 msgid "Headers"
 msgstr "Заголовки"
 
 #: inc/block-patterns.php:18
-#, gp-priority: normal
 msgid "Footers"
 msgstr "Подвалы"
 
 #: inc/block-patterns.php:17
-#, gp-priority: normal
 msgid "Featured"
 msgstr "Избранное"
 

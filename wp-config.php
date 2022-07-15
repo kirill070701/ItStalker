@@ -31,7 +31,7 @@ define( 'DB_USER', 'wp' );
 define( 'DB_PASSWORD', 'root' );
 
 /** Имя сервера базы данных */
-define( 'DB_HOST', '192.168.0.102' );
+define( 'DB_HOST', 'localhost' );
 
 /** Кодировка базы данных для создания таблиц. */
 define( 'DB_CHARSET', 'utf8' );
